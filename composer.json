@@ -1,0 +1,20 @@
+{
+    "name": "project/bp",
+    "description": "Bored Panda task",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Project\\BoredPanda\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LauraJanuskeviciene",
+            "email": "laura.januske@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.0.*"
+    }
+}
